@@ -1,2 +1,2 @@
 # victoria-client
-AngularJS client for a REST catalog server
+AngularJS client for a REST store catalog

@@ -1,5 +1,6 @@
 [
   {
+      "product_id":1,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -7,6 +8,7 @@
     "img": "but1.jpg"
   },
   {
+      "product_id":2,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -14,6 +16,7 @@
     "img": "but2.jpg"
   },
   {
+      "product_id":3,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -21,6 +24,7 @@
     "img": "but3.jpg"
   },
   {
+      "product_id":4,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -28,6 +32,7 @@
     "img": "but4.jpg"
   },
   {
+      "product_id":5,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -35,6 +40,7 @@
     "img": "but5.jpg"
   },
   {
+      "product_id":6,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -42,6 +48,7 @@
     "img": "but6.jpg"
   },
   {
+      "product_id":7,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -49,6 +56,7 @@
     "img": "but7.jpg"
   },
   {
+      "product_id":8,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -56,6 +64,7 @@
     "img": "but8.jpg"
   },
   {
+      "product_id":9,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",
@@ -63,6 +72,7 @@
     "img": "but9.jpg"
   },
   {
+      "product_id":10,
     "name": "SOFTENING BODY BUTTER",
     "price": 12.5,
     "description": "The fruity fragrance you can't get enough of, with rich shea and jojoba butters, plus antioxidant vitamin E for long-lasting, intensive moisture.",

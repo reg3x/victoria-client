@@ -1,5 +1,6 @@
 [
   {
+      "product_id":1,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -7,6 +8,7 @@
     "img": "leg1.jpg"
   },
   {
+      "product_id":2,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -14,6 +16,7 @@
     "img": "leg2.jpg"
   },
   {
+      "product_id":3,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -21,6 +24,7 @@
     "img": "leg3.jpg"
   },
   {
+      "product_id":4,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -28,6 +32,7 @@
     "img": "leg4.jpg"
   },
   {
+      "product_id":5,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -35,6 +40,7 @@
     "img": "leg5.jpg"
   },
   {
+      "product_id":6,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -42,6 +48,7 @@
     "img": "leg6.jpg"
   },
   {
+      "product_id":7,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -49,6 +56,7 @@
     "img": "leg7.jpg"
   },
   {
+      "product_id":8,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -56,6 +64,7 @@
     "img": "leg8.jpg"
   },
   {
+      "product_id":9,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",
@@ -63,6 +72,7 @@
     "img": "leg9.jpg"
   },
   {
+      "product_id":10,
     "name": "THE MOST-LOVED YOGA LEGGING",
     "price": 12.5,
     "description": "A must-get legging with the same sleek, curve-loving fit and foldover waistband as our Most-Loved Yoga Pant. Premium stretch cotton moves comfortably with you, out, in or at the gym as the foldover waistband hugs your shape.",

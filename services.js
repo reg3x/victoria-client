@@ -22,4 +22,8 @@ vicServices = angular.module('vicServices', [])
 
 .factory('fraganceService', function ($resource) {
     return $resource('http://127.0.0.1:8000/api/catalog/fragance');
+})
+
+.factory('allService', function ($resource) {
+    return $resource('http://127.0.0.1:8000/api/catalog/', {'query': {method: 'GET', isArray: false }});
 });

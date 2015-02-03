@@ -5,16 +5,16 @@ vicApp.directive('catcontainer', function () {
         restrict : 'E',
         templateUrl: '/components/catalog/catalog-container.html',
         controller : ['$http', '$scope','$routeParams', 'pantyService','brasierService','leggingService',
-                      'creamService','butterService','fraganceService', 
+                      'creamService','butterService','fraganceService', 'allService', 
                       function ($http, $scope, $routeParams, pantyService,brasierService, leggingService,
-                                 creamService, butterService, fraganceService) {
+                                 creamService, butterService, fraganceService, allService) {
 
                           console.dir('parameter provided: '+ $routeParams.section);
                           var options = ['panty', 'brasier','legging', 'cream','butter', 'fragance'];
                           
                           if (typeof $routeParams.section === 'undefined') {
-                                console.dir('no parameter provided: '+typeof $routeParams.section+' showing all product_lines');
-
+                              console.dir('no parameter provided: '+typeof $routeParams.section+' showing all product_lines');
+                              
                                 $http.get('/components/catalog/all.json').
                                 success(function(data) {
                                     console.log("all.json loaded successfuly");
@@ -69,9 +69,6 @@ vicApp.directive('catcontainer', function () {
                                     break;
 
                             }
-
-
-
                             //added to test REST API
 
                             /* --- this code works with the mockup data

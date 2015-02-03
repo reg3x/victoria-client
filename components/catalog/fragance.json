@@ -7,14 +7,14 @@
     "stock": 4,
     "img": "fra1.jpg"
   },
-  {
-      "product_id":2,
-    "name": "VERY SEXY FRAGRANCE MIST",
-    "price": 12.5,
-    "description": "Perfect for when you want a light touch of scent, Very Sexy Fragrance Mist is the sheerer version of the sultry, fragrance you know and love, now in a sleek, new bottle. This provocative fragrance teases skin with a seductive blend of vanilla orchid, sun-drenched clementine and midnight blackberry.",
-    "stock": 4,
-    "img": "fra2.jpg"
-  },
+      {
+          "product_id":2,
+        "name": "VERY SEXY FRAGRANCE MIST",
+        "price": 12.5,
+        "description": "Perfect for when you want a light touch of scent, Very Sexy Fragrance Mist is the sheerer version of the sultry, fragrance you know and love, now in a sleek, new bottle. This provocative fragrance teases skin with a seductive blend of vanilla orchid, sun-drenched clementine and midnight blackberry.",
+        "stock": 4,
+        "img": "fra2.jpg"
+      },
   {
       "product_id":3,
     "name": "VERY SEXY FRAGRANCE MIST",

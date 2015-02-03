@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html ng-app='vicApp'>
+    <head>
+        <title>Victoria Secret</title>
+        <script src="assets/vendor/angular/angular.js"></script>
+        <script src="assets/vendor/angular-resource/angular-resource.min.js"></script>
+        <script src="assets/vendor/angular-route/angular-route.min.js"></script>
+        <script src="app.js"></script>
+        <script src="controller.js"></script>
+        <script src="services.js"></script>
+        <script src="components/home/home-directives.js"></script>
+        <script src="components/catalog/catalog-directives.js"></script>
+        <script src="components/cart/cart-directives.js"></script>
+        <link href="assets/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">    
+        <link href="assets/vendor/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    </head>
+    <navbar></navbar>
+    <body ng-controller='bodyController'>
+        <div ng-view></div>
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="assets/vendor/bootstrap/js/carousel.js"></script>
+        <script>
+          !function ($) {
+            $(function(){
+              // carousel demo
+              $('#myCarousel').carousel()
+            })
+          }(window.jQuery)
+        </script>
+    </body>
+</html>

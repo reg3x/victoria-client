@@ -1,0 +1,22 @@
+[
+    {
+        "name": "cream",
+        "headline" : "Cremas",
+        "content":"Fórmulas únicas para el cuidado de la piel, refrescandote todos los dias",
+        "img":"bodycream.jpg"
+    },
+    
+    {
+        "name": "butter",
+        "headline" : "Mantequillas",
+        "content":"Repara tu piel luego de un largo dia, siente la frescura y el placer de cuidarte",
+        "img":"bodybutter.jpg"
+    },
+    
+    {
+        "name": "fragance",
+        "headline" : "Fragancias",
+        "content":"Seduce tu ambiente con las mejores fragancias frutales y sensuales",
+        "img":"fragance.jpg"
+    }
+]

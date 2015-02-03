@@ -1,0 +1,62 @@
+<div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4" ng-repeat="product in products">
+          <img class="img-circle" ng-src="components/home/marketing/img/{{product.img}}" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>{{product.headline}}</h2>
+          <p>{{product.content}}</p>
+          <p><a class="btn btn-default" href="index.html#/catalog/{{product.name}}" role="button">Ver detalles »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{featurette[0].headline1}}. <span class="text-muted">{{featurette[0].headline2}}.</span></h2>
+          <p class="lead">{{featurette[0].content}}.</p>
+        </div>
+        <div class="col-md-5">
+          <img data-holder-rendered="true" ng-src="components/home/marketing/img/{{featurette[0].img}}" class="featurette-image img-responsive" alt="500x500" >
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img data-holder-rendered="true" ng-src="components/home/marketing/img/{{featurette[1].img}}" class="featurette-image img-responsive" alt="500x500" >
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{featurette[1].headline1}}. <span class="text-muted">{{featurette[1].headline2}}.</span></h2>
+          <p class="lead">{{featurette[1].content}}.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{featurette[2].headline1}}. <span class="text-muted">{{featurette[2].headline2}}.</span></h2>
+          <p class="lead">{{featurette[2].content}}.</p>
+        </div>
+        <div class="col-md-5">
+          <img data-holder-rendered="true" ng-src="components/home/marketing/img/{{featurette[2].img}}" class="featurette-image img-responsive" alt="500x500" >
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="">Back to top</a></p>
+        <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    </div>

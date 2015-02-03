@@ -1,0 +1,38 @@
+[
+  {
+    "name": "DEMI BRA WITH LACE PRINT",
+    "price": 12.5,
+    "stock": 4,
+    "img": "bra1.jpg"
+  },
+  {
+    "name": "SOFTENING BODY BUTTER",
+    "price": 12.5,
+    "stock": 4,
+    "img": "but1.jpg"
+  },
+  {
+    "name": "ULTRA-MOISTURIZING HAND AND BODY CREAM",
+    "price": 12.5,
+    "stock": 4,
+    "img": "cre1.jpg"
+  },
+  {
+    "name": "VERY SEXY FRAGRANCE MIST",
+    "price": 12.5,
+    "stock": 4,
+    "img": "fra1.jpg"
+  },
+  {
+    "name": "THE MOST-LOVED YOGA LEGGING",
+    "price": 12.5,
+    "stock": 4,
+    "img": "leg1.jpg"
+  },
+  {
+    "name": "LACE-TRIM CHEEKY PANTY",
+    "price": 12.5,
+    "stock": 4,
+    "img": "pan1.jpg"
+  }
+]

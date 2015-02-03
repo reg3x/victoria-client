@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'compression',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json victoria_client@1.0.0 No repository field.
+5 warn package.json victoria_client@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'compression', null ]
+8 verbose cache add name=undefined spec="compression" args=["compression",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'compression',
+9 verbose parsed url   path: 'compression',
+9 verbose parsed url   href: 'compression' }
+10 silly lockFile e4c94651-compression compression
+11 verbose lock compression /Users/diegoaguilerazambrano/.npm/e4c94651-compression.lock
+12 silly lockFile e4c94651-compression compression
+13 silly lockFile e4c94651-compression compression
+14 verbose addNamed [ 'compression', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 307ddbf4-compression compression@
+17 verbose lock compression@ /Users/diegoaguilerazambrano/.npm/307ddbf4-compression.lock
+18 silly addNameRange { name: 'compression', range: '*', hasData: false }
+19 verbose request where is /compression
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 7e5553e5dded8511
+22 verbose url raw /compression
+23 verbose url resolving [ 'https://registry.npmjs.org/', './compression' ]
+24 verbose url resolved https://registry.npmjs.org/compression
+25 verbose request where is https://registry.npmjs.org/compression
+26 info trying registry request attempt 1 at 22:12:34
+27 verbose etag "DWQSA5KYLMCHO5QI892HLOIX"
+28 http GET https://registry.npmjs.org/compression
+29 http 200 https://registry.npmjs.org/compression
+30 silly registry.get cb [ 200,
+30 silly registry.get   { date: 'Tue, 03 Feb 2015 02:42:34 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"7HDGGXWXBF7Q200ACMMH0I7EX"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '45237',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '32',
+30 silly registry.get     'x-served-by': 'cache-iad2135-IAD',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1422931354.346895,VS0,VE0',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly addNameRange number 2 { name: 'compression', range: '*', hasData: true }
+32 silly addNameRange versions [ 'compression',
+32 silly addNameRange   [ '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.0.4',
+32 silly addNameRange     '1.0.5',
+32 silly addNameRange     '1.0.6',
+32 silly addNameRange     '1.0.7',
+32 silly addNameRange     '1.0.8',
+32 silly addNameRange     '1.0.9',
+32 silly addNameRange     '1.0.10',
+32 silly addNameRange     '1.0.11',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.1.2',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.2.2',
+32 silly addNameRange     '1.3.0',
+32 silly addNameRange     '1.3.1',
+32 silly addNameRange     '1.4.0' ] ]
+33 verbose addNamed [ 'compression', '1.4.0' ]
+34 verbose addNamed [ '1.4.0', '1.4.0' ]
+35 silly lockFile e555de4e-compression-1-4-0 compression@1.4.0
+36 verbose lock compression@1.4.0 /Users/diegoaguilerazambrano/.npm/e555de4e-compression-1-4-0.lock
+37 silly lockFile b340da67-ompression-compression-1-4-0-tgz https://registry.npmjs.org/compression/-/compression-1.4.0.tgz
+38 verbose lock https://registry.npmjs.org/compression/-/compression-1.4.0.tgz /Users/diegoaguilerazambrano/.npm/b340da67-ompression-compression-1-4-0-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/compression/-/compression-1.4.0.tgz',
+39 verbose addRemoteTarball   'e78287443ef7b4fa0c6a437bc8e5ad31919040bb' ]
+40 info retry fetch attempt 1 at 22:12:35
+41 verbose fetch to= /var/folders/w_/24mxs5z16zdd75z8ndnf4gdh0000gn/T/npm-914-VQIS3qcJ/registry.npmjs.org/compression/-/compression-1.4.0.tgz
+42 http GET https://registry.npmjs.org/compression/-/compression-1.4.0.tgz
+43 http 200 https://registry.npmjs.org/compression/-/compression-1.4.0.tgz
+44 silly lockFile b340da67-ompression-compression-1-4-0-tgz https://registry.npmjs.org/compression/-/compression-1.4.0.tgz
+45 silly lockFile b340da67-ompression-compression-1-4-0-tgz https://registry.npmjs.org/compression/-/compression-1.4.0.tgz
+46 silly lockFile e555de4e-compression-1-4-0 compression@1.4.0
+47 silly lockFile e555de4e-compression-1-4-0 compression@1.4.0
+48 silly lockFile 307ddbf4-compression compression@
+49 silly lockFile 307ddbf4-compression compression@
+50 error Error: EACCES, mkdir '/Users/diegoaguilerazambrano/.npm/compression/1.4.0'
+50 error  { [Error: EACCES, mkdir '/Users/diegoaguilerazambrano/.npm/compression/1.4.0']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/Users/diegoaguilerazambrano/.npm/compression/1.4.0',
+50 error   parent: 'victoria_client' }
+51 error Please try running this command again as root/Administrator.
+52 error System Darwin 14.1.0
+53 error command "node" "/usr/local/bin/npm" "install" "compression" "--save"
+54 error cwd /Users/diegoaguilerazambrano/Documents/development/python/victoria/victoria_client
+55 error node -v v0.10.35
+56 error npm -v 1.4.28
+57 error path /Users/diegoaguilerazambrano/.npm/compression/1.4.0
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/Users/diegoaguilerazambrano/.npm/compression/1.4.0'
+61 verbose exit [ 3, true ]

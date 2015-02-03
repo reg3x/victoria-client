@@ -1,0 +1,25 @@
+[
+    {
+      "name":"panty",
+      "headline1":"Pantys",
+      "headline2":"Mas comodas y suaves",
+      "content":"Para tu comodidad y el disfrute de tu piel, con materiales finos, suaves y delicados que acarician tu cuerpo y te permiten descansar con comodidad y sentirte segura durante todo el dia",
+      "img":"pinkpanty.jpg"
+    },
+    
+    {
+      "name":"brasier",
+      "headline1":"Brasiers",
+      "headline2":"Delicados para cuidar tus senos",
+      "content":"Protégelos con diseños lindos y unicos, dile adios a los materiales incomodos y dale la bienvenida a nuestros delicados materiales que te acompañaran dia a dia",
+      "img":"pinkbra.jpg"
+    },
+    
+    {
+      "name":"leggings",
+      "headline1":"Leggings",
+      "headline2":"Flexibilidad para ti",
+      "content":"Bien sea para activar tu dia y estar comoda mientras te ejercitas o descansar en tu hogar, la mejor forma de hacerlo es disfrutando de la versatilidad y practicidad",
+      "img":"legging.jpg"
+    }
+]

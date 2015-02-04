@@ -12,5 +12,5 @@ app.engine('html', cons.swig)
     res.render('index.html');
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 console.log('Express server started at 8080');

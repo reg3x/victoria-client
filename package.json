@@ -12,6 +12,7 @@
   "author": "reg3x (diegoaguilera85@gmail.com)",
   "license": "ISC",
   "dependencies": {
+    "angular-local-storage": "^0.1.5",
     "compression": "^1.4.0",
     "consolidate": "^0.10.0",
     "express": "^4.11.2",

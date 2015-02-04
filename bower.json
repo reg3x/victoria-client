@@ -1,0 +1,30 @@
+{
+  "name": "victoria_client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/reg3x/victoria-client",
+  "authors": [
+    "reg3x <diegoaguilera85@gmail.com>"
+  ],
+  "description": "AngularJS client, REST api consumer",
+  "main": "node_app.js",
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.3.11",
+    "angular-resource": "~1.3.11",
+    "bootstrap": "~3.3.1",
+    "angular": "~1.3.11",
+    "jquery": "~2.1.3"
+  }
+}

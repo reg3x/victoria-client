@@ -10,11 +10,11 @@ vicApp.directive('catcontainer', function () {
                                  creamService, butterService, fraganceService, allService) {
 
                           console.dir('parameter provided: '+ $routeParams.section);
-                          var options = ['panty', 'brasier','legging', 'cream','butter', 'fragance'];
+                          var options = ['panty', 'brasier','legging', 'cream','butter', 'fragance', 'all'];
                           
                           if (typeof $routeParams.section === 'undefined') {
-                              console.dir('no parameter provided: '+typeof $routeParams.section+' showing all product_lines');
-                              
+                              console.dir('no parameter provided: '+typeof $routeParams.section+' we might redirect to all/');
+                            /*  
                                 $http.get('/components/catalog/all.json').
                                 success(function(data) {
                                     console.log("all.json loaded successfuly");
@@ -23,7 +23,7 @@ vicApp.directive('catcontainer', function () {
                                 }).
                                 error(function () {
                                     console.log("{{$routeParams.section}}.json NOT loaded successfuly");        
-                                });
+                                });*/
 
                             }
                           else if ($.inArray($routeParams.section, options) >-1 ) {
@@ -62,6 +62,12 @@ vicApp.directive('catcontainer', function () {
                                 case 'fragance':
                                     fraganceService.query(function (data) {
                                           $scope.product = data;
+                                    });
+                                    break;
+                                
+                                case 'all':
+                                    allService.query(function (data){
+                                        $scope.product = data;
                                     });
                                     break;
                                 

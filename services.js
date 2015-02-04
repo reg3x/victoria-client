@@ -25,5 +25,5 @@ vicServices = angular.module('vicServices', [])
 })
 
 .factory('allService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/', {'query': {method: 'GET', isArray: false }});
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/all');
 });

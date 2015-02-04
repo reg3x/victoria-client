@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node node_app.js"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "author": "reg3x (diegoaguilera85@gmail.com)",
   "license": "ISC",
   "dependencies": {

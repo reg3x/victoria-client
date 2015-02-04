@@ -35,6 +35,3 @@ vicApp.config(['$routeProvider',function ($routeProvider) {
             redirectTo: '/'
         });
 } ]);
-
-//add config for headers
-//add SPA router

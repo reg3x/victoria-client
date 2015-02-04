@@ -4,7 +4,7 @@
   "description": "angularjs client for consuming REST api",
   "main": "node_app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_app.js"
   },
   "author": "reg3x (diegoaguilera85@gmail.com)",
   "license": "ISC",

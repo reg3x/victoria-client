@@ -1,27 +1,27 @@
 vicServices = angular.module('vicServices', [])
 
 .factory('pantyService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/panty');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/panty');
 })
 
 .factory('brasierService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/brasier');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/brasier');
 })
 
 .factory('leggingService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/legging');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/legging');
 })
 
 .factory('creamService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/cream');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/cream');
 })
 
 .factory('butterService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/butter');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/butter');
 })
 
 .factory('fraganceService', function ($resource) {
-    return $resource('http://127.0.0.1:8000/api/catalog/fragance');
+    return $resource('https://victoriasecret-api.herokuapp.com/api/catalog/fragance');
 })
 
 .factory('allService', function ($resource) {

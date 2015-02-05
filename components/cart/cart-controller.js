@@ -1,13 +1,16 @@
 var vicApp = angular.module('CartCtrl', [ ]);
 
-vicApp.controller('CartCtrl', ['$http', '$scope', function($http, $scope){
+vicApp.controller('CartCtrl', ['$http', '$scope', 'localStorageService', function($http, $scope, localStorageService){
         
-            $http.get('/components/cart/cart.json').
-            success(function(data) {
-                console.log("cart.json loaded successfuly");
-                $scope.product = data;
-            }).
-            error(function () {
-                console.log("cart.json NOT loaded successfuly");
-            });
+    var itemsStored = localStorageService.get('items');
+    if (itemsStored){
+        console.log('valor almacenado en LocalStorage: '+ itemsStored);
+        $scope.product = itemsStored;
+    }
+    
+    $scope.clearStored = function () {
+        localStorageService.clearAll();
+        alert('Your Cart is now Empty');
+        //we should reload the cart web site here
+    }
 }]);

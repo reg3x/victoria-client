@@ -2,93 +2,79 @@ var vicApp = angular.module('CatalogCtrl', [ ]);
 
 
 vicApp.controller('CatalogCtrl', ['$http', '$scope','$routeParams', 'pantyService','brasierService','leggingService',
-                      'creamService','butterService','fraganceService', 'allService', 
+                      'creamService','butterService','fraganceService', 'allService', 'localStorageService',
                       function ($http, $scope, $routeParams, pantyService,brasierService, leggingService,
-                                 creamService, butterService, fraganceService, allService) {
+                                 creamService, butterService, fraganceService, allService, localStorageService) {
 
                           console.dir('parameter provided: '+ $routeParams.section);
                           var options = ['panty', 'brasier','legging', 'cream','butter', 'fragance', 'all'];
                           
+                        
+                          $scope.addToCart = function (item) {
+                              console.log('item: '+item);
+                              var queries = localStorageService.get('items') || [];
+                              queries.push(item);
+                              console.log('queries: '+queries);
+                              localStorageService.set('items', queries);
+                              alert('Se ha agregado a su carro el producto '+item.name);
+                          };
+
+                          
                           if (typeof $routeParams.section === 'undefined') {
-                              console.dir('no parameter provided: '+typeof $routeParams.section+' we might redirect to all/');
-                            /*  
-                                $http.get('/components/catalog/all.json').
-                                success(function(data) {
-                                    console.log("all.json loaded successfuly");
-                                    console.log("parameters: "+ $routeParams.section);
-                                    $scope.product = data;
-                                }).
-                                error(function () {
-                                    console.log("{{$routeParams.section}}.json NOT loaded successfuly");        
-                                });*/
-
+                              console.dir('no parameter provided: '+typeof $routeParams.section+' we might redirect to /catalog/all/');    
                             }
+                          
                           else if ($.inArray($routeParams.section, options) >-1 ) {
-                                console.log('you entered here');
-                            switch($routeParams.section) {
-                                case 'panty':
-                                    pantyService.query(function (data) {
+                              switch($routeParams.section) {
+                                  case 'panty':
+                                      pantyService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
+                                      });
+                                      break;
 
-                                case 'brasier':
-                                    brasierService.query(function (data) {
+                                  case 'brasier':
+                                      brasierService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
+                                      });
+                                      break;
 
-                                case 'legging':
-                                    leggingService.query(function (data) {
+                                  case 'legging':
+                                      leggingService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
+                                      });
+                                      break;
 
-                                case 'cream':
-                                    creamService.query(function (data) {
+                                  case 'cream':
+                                      creamService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
+                                      });
+                                      break;
 
-                                    case 'butter':
-                                    butterService.query(function (data) {
+                                  case 'butter':
+                                      butterService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
+                                      });
+                                      break;
 
-                                case 'fragance':
-                                    fraganceService.query(function (data) {
+                                  case 'fragance':
+                                      fraganceService.query(function (data) {
                                           $scope.product = data;
-                                    });
-                                    break;
-                                
-                                case 'all':
-                                    allService.query(function (data){
-                                        $scope.product = data;
-                                    });
-                                    break;
-                                
-                                default:
-                                    break;
+                                      });
+                                      break;
 
-                            }
-                            //added to test REST API
+                                  case 'all':
+                                      allService.query(function (data){
+                                          $scope.product = data;
+                                      });
+                                      break;
 
-                            /* --- this code works with the mockup data
-                            $http.get('/components/catalog/'+$routeParams.section+'.json').
-                            success(function(data) {
-                                console.log($routeParams.section+".json loaded successfuly");
-                                console.log("parameters: "+ $routeParams.section);
-                                $scope.product = data;
-                            }).
-                            error(function () {
-                                console.log("{{$routeParams.section}}.json NOT loaded successfuly");        
-                            });
-                            */  
-                            }
+                                  default:
+                                      break;
+
+                              }
+                          }
                           else { 
-                              console.log('invalid route we should redirect here to catalog/'); 
+                              console.log('invalid route we should redirect here to catalog/all');
                           } 
-
-        }]);
+                      }]);
                   

@@ -1,10 +1,7 @@
-var vicApp = angular.module('catalogDirectives', [ ]);
+var vicApp = angular.module('CatalogCtrl', [ ]); 
 
-vicApp.directive('catcontainer', function () {
-    return{
-        restrict : 'E',
-        templateUrl: '/components/catalog/catalog-container.html',
-        controller : ['$http', '$scope','$routeParams', 'pantyService','brasierService','leggingService',
+
+vicApp.controller('CatalogCtrl', ['$http', '$scope','$routeParams', 'pantyService','brasierService','leggingService',
                       'creamService','butterService','fraganceService', 'allService', 
                       function ($http, $scope, $routeParams, pantyService,brasierService, leggingService,
                                  creamService, butterService, fraganceService, allService) {
@@ -93,6 +90,5 @@ vicApp.directive('catcontainer', function () {
                               console.log('invalid route we should redirect here to catalog/'); 
                           } 
 
-        }],
-    }
-});
+        }]);
+                  

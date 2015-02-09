@@ -2,9 +2,10 @@ var vicApp = angular.module('CatalogCtrl', [ ]);
 
 
 vicApp.controller('CatalogCtrl', ['$http', '$scope','$routeParams', 'pantyService','brasierService','leggingService',
-                      'creamService','butterService','fraganceService', 'allService', 'localStorageService',
+                      'creamService','butterService','fraganceService', 'allService', 'localStorageService', '$location',
                       function ($http, $scope, $routeParams, pantyService,brasierService, leggingService,
-                                 creamService, butterService, fraganceService, allService, localStorageService) {
+                                 creamService, butterService, fraganceService, allService, localStorageService,
+                                  $location) {
 
                           console.dir('parameter provided: '+ $routeParams.section);
                           var options = ['panty', 'brasier','legging', 'cream','butter', 'fragance', 'all'];
@@ -21,7 +22,7 @@ vicApp.controller('CatalogCtrl', ['$http', '$scope','$routeParams', 'pantyServic
 
                           
                           if (typeof $routeParams.section === 'undefined') {
-                              console.dir('no parameter provided: '+typeof $routeParams.section+' we might redirect to /catalog/all/');    
+                              $location.path('/catalog/all');
                             }
                           
                           else if ($.inArray($routeParams.section, options) >-1 ) {
@@ -74,7 +75,7 @@ vicApp.controller('CatalogCtrl', ['$http', '$scope','$routeParams', 'pantyServic
                               }
                           }
                           else { 
-                              console.log('invalid route we should redirect here to catalog/all');
+                              $location.path('/catalog/all');
                           } 
                       }]);
                   

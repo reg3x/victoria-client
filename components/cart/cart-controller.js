@@ -1,6 +1,6 @@
 var vicApp = angular.module('CartCtrl', [ ]);
 
-vicApp.controller('CartCtrl', ['$http', '$scope', 'localStorageService', function($http, $scope, localStorageService){
+vicApp.controller('CartCtrl', ['$http', '$scope', '$route','localStorageService', function($http, $scope, $route, localStorageService){
         
     var itemsStored = localStorageService.get('items');
     if (itemsStored){
@@ -11,6 +11,6 @@ vicApp.controller('CartCtrl', ['$http', '$scope', 'localStorageService', functio
     $scope.clearStored = function () {
         localStorageService.clearAll();
         alert('Your Cart is now Empty');
-        //we should reload the cart web site here
+        $route.reload();
     }
 }]);
